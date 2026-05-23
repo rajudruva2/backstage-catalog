@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: raj-platform
+  description: Raj Platform Backstage Portal
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
